@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav{
@@ -23,7 +24,7 @@ ul{
 ul li{
 
     margin-right: 25px;
-    font-size: 23px;
+    font-size: 18px;
     list-style: none;
 }
 
@@ -181,10 +182,205 @@ ul li{
 
 }
   
-feature2 div ul {
-  
+.feature2 div ul{
+  display:flex;
+  flex-direction:column;
+
+
+}
+ 
+
+
+.feature2 div ul li {
+
   color: white;
   background-color: rgb(77, 77, 77);
+  margin-top:20px;
+  margin-left:10px;
+  border-radius: 8px;
+  padding :7px;
+  font-size: 18px;
+
+}
+
+.feature2 div ul li span{
  
+  
+  height: 15px;
+  width: 15px;
+  background-color:white;
+  border-radius:50%; 
+  display: inline-block;
+  margin-left: 3px;
+  margin-right:8px;
+
+}
+
+.hero3{
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+}
+
+.hero3 span{
+  color:white;
+  font-size:45px;
+  text-align: center;
+  
+
+}
+
+.hero31{
+  
+ height: 40%;
+ position: relative;
+ top:10%;
+ left:-10%;
+
+}
+
+
+.hero32{
+
+    
+ height: 40%;
+ position: relative;
+ top:10%;
+ left:10%;
+
+
+}
+
+.hero4{
+  height:80vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+}
+
+.hero4 span{
+  
+  width:300px;
+  height:500px;
+
+  border-radius: 10px;
+  
+
+
+
+}
+
+.hero4 span:nth-child(1){
+  background-color:white;
+
+  color: black;
+
+
+}
+.hero4 span:nth-child(2){
+  background-color:#0c8bfd;
+  color: white;
+
+}
+.hero4 span:nth-child(3){
+  background-color:white;
+  color: black;
+
+}
+
+hr{
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.hero4 span ul{
+ display:flex;
+ flex-direction:column;
+
+}
+
+.hero4 span ul li{
+color: black;
+font-size:16px; 
+margin-top: 8px;
+margin-left:16px;
+font-weight: 500;
+
+}
+
+.hero5{
+  display:flex;
+
+
+}
+
+.hero5 span:nth-child(1){
+  width:50%;
+  height:30vh;
+  font-size: 30px;
+  display:flex;
+  align-items:center;
+  position: relative;
+  left:5%;
+  
+}
+.hero5 span:nth-child(2){
+
+  font-size: 20px;
+  height:30vh;
+  display:flex;
+  align-items:center;
+  position: relative;
+  left:5%;
+  color: rgb(56, 56, 56);
+}
+
+.hero511{
+  
+ height: 70vh;
+ width:100%;
+ display: flex;
+
+
+}
+
+.hero511 span:nth-child(1){
+
+ width: 600px;
+ height: 350px;
+ border: 1px solid black;
+ border-radius:26px;
+ background-color: black;
+ position: relative;
+ left:5%;
+
+
+}
+
+.hero511 span:nth-child(2){
+
+ width: 600px;
+ height:350px;
+ border: 1px solid black;
+ margin-left: 5px;
+ border-radius:26px;
+ position: relative;
+ left:7%;
+
+}
+
+.lastpage1{
+      padding:20px;
+      background-color: rgb(75, 74, 74);
+
 
 }
