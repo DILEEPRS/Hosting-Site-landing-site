@@ -6,7 +6,7 @@
     
 }
 
-nav{
+.firstnav{
     height: 15vh;
     background-color:black;
     display: flex;
@@ -34,7 +34,7 @@ ul li{
     color: white;
     background-color:#0c8bfd;
     border-radius: 25px;
-    padding:15px 25px;
+    padding:12px 25px;
 
 }
 
@@ -296,7 +296,7 @@ ul li{
 
 }
 
-hr{
+.firsthr{
   width: 260px;
   margin-top: 20px;
   margin-left: 20px;
@@ -378,9 +378,87 @@ font-weight: 500;
 
 }
 
-.lastpage1{
-      padding:20px;
-      background-color: rgb(75, 74, 74);
+.lastnav{
+  width:80%;
+  height: 20vh;
+  background-color: rgb(39, 38, 38);
+  border-radius: 16px; 
+  position: relative;
+  left:10%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
 
+.lastpage{
+  height:110vh;
+
+}
+
+.lastnav button:nth-child(n){
+  width:240px;
+  height: 50px;
+  background-color:rgb(63, 61, 61);
+  color:rgb(158, 154, 154);
+  text-align: left;
+  font-size: 17px;
+
+
+}
+
+.lastnav button:nth-child(4){
+
+  width:160px;
+  color: azure;
+  background-color: #0c8bfd;
+  text-align: center;
+  
+}
+
+.lasthr{
+  width:80%;
+  position: relative;
+  left:10%;
+  margin:40px 0px;
+  border: 1px solid #353535; 
+
+
+}
+
+.last1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  
+
+
+
+} 
+
+.last1 span{
+   display: flex;
+   flex-direction: column;
+   width:20%;
+
+}
+
+.last1 span ul{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.last1 span ul li:nth-child(1){
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+.last1 span ul li{
+
+  padding: 5px;
 
 }
